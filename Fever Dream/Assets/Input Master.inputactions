@@ -7,9 +7,9 @@
             "actions": [
                 {
                     "name": "Movement",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "3ebe51eb-32c9-4e45-8152-098665b872b9",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 },
@@ -18,6 +18,14 @@
                     "type": "Button",
                     "id": "af45e75d-94a2-4a8c-bf56-91bfe00a53da",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Look",
+                    "type": "PassThrough",
+                    "id": "6b87860f-1199-4605-afa8-233c42b92ac0",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 }
@@ -86,6 +94,17 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d75b4868-9980-45bc-8f70-1a0a85049e0e",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
